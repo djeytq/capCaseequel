@@ -53,7 +53,7 @@ export function Home() {
     </div>
 
     <div className="container mt-5 fundo1">
-    <h3 class="about-title fs-4 text-center" >Olá, Seja bem-vindo!</h3>
+    <h3 class=" fs-4 text-center" >Olá, Seja bem-vindo!</h3>
 
         <img src="images/igreja1.jpg" className="float-start" alt="" width={400}/>
         <div className="mt-5">
@@ -65,7 +65,12 @@ export function Home() {
       <p className="h3 text-end">João 3.16</p>
       <p className="lead text-danger fw-semibold">"Porque Deus amou o mundo de tal maneira que deu o seu Filho unigênito, para que todo aquele que nele crê não pereça, mas tenha a vida eterna."</p>
     </div>
-    <div className="clearfix"></div>
+    <div style={{clear:"both"}}></div>
+    <img src="images/fundo2.jpg" className="img-fluid w-100 d-lg-none" alt="" />
+
+    <div className="d-flex ">
+    <h2 class="mx-auto bg-warning d-inline-block px-5">Sectores</h2>
+    </div>
 
         </Container>
     )
