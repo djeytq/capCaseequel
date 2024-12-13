@@ -4,6 +4,13 @@
     box-sizing: border-box;
 }
 
+.header{
+    backdrop-filter: blur(19px);
+    /* width: 500px;
+    margin: auto; */
+    padding: 0 0 10px 0;
+}
+
 .menus{
     text-align: center;
     a{
@@ -14,4 +21,9 @@
             border-bottom: 2px solid #0009;
         }
     }
+}
+
+p{
+    text-align: justify;
+    text-indent: 15px;
 }

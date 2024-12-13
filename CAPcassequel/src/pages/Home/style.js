@@ -6,4 +6,5 @@ min-height: 100vh;
 .inicio{
     border-bottom: 2px solid orange;
 }
+
 `;
