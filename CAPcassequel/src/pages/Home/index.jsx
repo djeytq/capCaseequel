@@ -113,16 +113,16 @@ export function Home() {
 </div>
 
     <div className="container-fluid row py-3">
-      <div className="col-6 col-sm-6 col-md-5">
-      <img src="images/gps3.jpeg" className=" float-md-start" alt="" />
-      <p>País: Angola</p>
-      <p>Cidade: Luanda</p>
-      <p>Município: Maianga</p>
-      <p>Bairro: Cassequel do Buraco</p>
-      <p>Detelhe: 1* Andar cinzento</p>
+      <div className="col-sm-6 ">
+      <img src="images/gps3.jpeg" className=" float-md-start" width={200} alt="" />
+        <p>País: Angola</p>
+        <p>Cidade: Luanda</p>
+        <p>Município: Maianga</p>
+        <p>Bairro: Cassequel do Buraco</p>
+        <p>Detelhe: 1* Andar cinzento</p>
       </div>
-      <div className="col-12 col-sm-6 col-md-7">
-        <img src="images/mapa.png" className="img rounded ms-auto  d-block" width={400} alt="" />
+      <div className="col-sm-6">
+        <img src="images/mapa.png" className="img rounded mx-auto  d-block " width={400} alt="" />
       </div>
     </div>
 
