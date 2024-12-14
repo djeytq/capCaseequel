@@ -68,8 +68,62 @@ export function Home() {
     <div style={{clear:"both"}}></div>
     <img src="images/fundo2.jpg" className="img-fluid w-100 d-lg-none" alt="" />
 
-    <div className="d-flex ">
-    <h2 class="mx-auto bg-warning d-inline-block px-5">Sectores</h2>
+    <div className="d-flex my-4 ">
+    <h2 class="mx-auto bg-warning d-inline-block px-5 py-2 rounded-pill bg-opacity-50">Sectores</h2>
+    </div>
+
+    <div className="container-fluid row py-4">
+
+      <div className="col-12 col-sm-6 col-md-6 col-lg-3">
+        <img src="images/setor6.webp" width={300} className=" w-100"/>
+        <h3 className="h3 text-center fw-bold opacity-50">Coral</h3>
+        <ul>
+          <li className="lead">Coral dos Jovens;</li>
+          <li className="lead">Coral das Mamãs;</li>
+          <li className="lead">Coral dos Papás.</li>
+        </ul>
+      </div>
+
+      <div className="col-12 col-sm-6 col-md-6 col-md-4 col-lg-3">
+      <img src="images/setor.png" width={300} className=" w-100"/>
+      <h3 className="h3 text-center fw-bold opacity-50">Ministério do Louvor</h3>
+      <p className="lead">Responsáveis pela moderação nos cultos</p>
+      <p className="lead">"Servi ao Senhor com alegria; apresentai-vos diante dele com cântico."</p>
+      </div>
+      
+      <div className="col-12 col-sm-6 col-md-6 col-md-4 col-lg-3">
+      <img src="images/teatro.png" width={300} className=" w-100"/>
+      <h3 className="h3 text-center fw-bold opacity-50">Grupo Teatral</h3>
+      <p className="lead">O teatro Evangeliza e também pode mudar vidas!</p>
+      </div>
+      
+      <div className="col-12 col-sm-6 col-md-6 col-md-4 col-lg-3">
+      <img src="images/setor9.png" width={300} className=" w-100"/>
+      <h3 className="h3 text-center fw-bold opacity-50">Grupo de Evangelismo</h3>
+      <p className="lead">O teatro Evangeliza e também pode mudar vidas!</p>
+      </div>
+
+    </div>
+
+    <img src="images/adoracao.jpeg" alt="casa" className="img-fluid w-100 d-lg-none" />
+<hr />
+
+<div className="d-flex">
+      <h3 className="rounded-pill bg-warning d-inline-block px-4 py-2 bg-opacity-50 mx-auto">Venha Cultuar</h3>
+</div>
+
+    <div className="container-fluid row py-3">
+      <div className="col-6 col-sm-6 col-md-5">
+      <img src="images/gps3.jpeg" className=" float-md-start" alt="" />
+      <p>País: Angola</p>
+      <p>Cidade: Luanda</p>
+      <p>Município: Maianga</p>
+      <p>Bairro: Cassequel do Buraco</p>
+      <p>Detelhe: 1* Andar cinzento</p>
+      </div>
+      <div className="col-12 col-sm-6 col-md-7">
+        <img src="images/mapa.png" className="img rounded ms-auto  d-block" width={400} alt="" />
+      </div>
     </div>
 
         </Container>
