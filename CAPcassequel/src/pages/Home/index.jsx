@@ -2,13 +2,15 @@ import { Container } from "./style.js";
 
 import { Header } from "../../Components/Header";
 import { Footer } from "../../Components/Footer";
+import { Icon } from "../../Components/Icon";
 
 export function Home() {
 
     return (
-        // <Container className="text-bg-info bg-opacity-25">
+        // <Container className="text-bg-warning bg-opacity-25">
         <Container>
             <Header />
+            <Icon />
 
              {/* slide  */}
     <div id="mainSlider" class="m-0">
