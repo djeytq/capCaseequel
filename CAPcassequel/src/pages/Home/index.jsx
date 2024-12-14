@@ -1,10 +1,12 @@
 import { Container } from "./style.js";
 
-import { Header } from "../../Components/Header/index.jsx";
+import { Header } from "../../Components/Header";
+import { Footer } from "../../Components/Footer";
 
 export function Home() {
 
     return (
+        // <Container className="text-bg-info bg-opacity-25">
         <Container>
             <Header />
 
@@ -55,7 +57,7 @@ export function Home() {
     <div className="container mt-5 fundo1">
     <h3 class=" fs-4 text-center" >Olá, Seja bem-vindo!</h3>
 
-        <img src="images/igreja1.jpg" className="float-start" alt="" width={400}/>
+        <img src="images/church.png" className="float-start" alt="" width={400}/>
         <div className="mt-5">
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat, cumque! Reprehenderit expedita aliquid illum ipsa aperiam quis, nesciunt placeat similique!</p>
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam officiis excepturi, doloribus magnam illo, impedit totam error ad sed quod, dignissimos eaque eius! Nihil accusamus magnam hic praesentium dolorem similique ipsa maxime rerum, temporibus labore, consequatur fugit delectus nesciunt non pariatur! Aliquam sequi nisi aperiam nostrum ipsum animi explicabo quibusdam?</p>
@@ -85,7 +87,7 @@ export function Home() {
       </div>
 
       <div className="col-12 col-sm-6 col-md-6 col-md-4 col-lg-3">
-      <img src="images/setor.png" width={300} className=" w-100"/>
+      <img src="images/setor_.png" width={300} className=" w-100"/>
       <h3 className="h3 text-center fw-bold opacity-50">Ministério do Louvor</h3>
       <p className="lead">Responsáveis pela moderação nos cultos</p>
       <p className="lead">"Servi ao Senhor com alegria; apresentai-vos diante dele com cântico."</p>
@@ -100,7 +102,7 @@ export function Home() {
       <div className="col-12 col-sm-6 col-md-6 col-md-4 col-lg-3">
       <img src="images/setor9.png" width={300} className=" w-100"/>
       <h3 className="h3 text-center fw-bold opacity-50">Grupo de Evangelismo</h3>
-      <p className="lead">O teatro Evangeliza e também pode mudar vidas!</p>
+      <p className="lead"><span className="fw-semibold">Marcos 19:15</span> "E disse-lhes: Ide por todo o mundo, pregai o evangelho a toda criatura."</p>
       </div>
 
     </div>
@@ -114,7 +116,7 @@ export function Home() {
 
     <div className="container-fluid row py-3">
       <div className="col-sm-6 ">
-      <img src="images/gps3.jpeg" className=" float-md-start" width={200} alt="" />
+      <img src="images/gps3.png" className=" float-md-start" width={200} alt="" />
         <p>País: Angola</p>
         <p>Cidade: Luanda</p>
         <p>Município: Maianga</p>
@@ -126,6 +128,7 @@ export function Home() {
       </div>
     </div>
 
+<Footer />
         </Container>
     )
 }
