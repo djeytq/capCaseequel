@@ -1,10 +1,12 @@
 import { Container } from "./style";
 
-export function Icon(){
+export function Icon() {
 
-    return(
+    return (
         <Container>
-            <img src="images/logo.png" width={100} />
+            <div className="camada">
+                    <img src="images/logo.png" width={80} className="img" />
+            </div>
         </Container>
     )
 }

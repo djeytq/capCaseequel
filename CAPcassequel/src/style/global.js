@@ -12,4 +12,8 @@ p{
     text-indent: 15px;
 }
 
+body{
+    /* background: #b99177; */
+    background: linear-gradient(#b99177, #FFF, #b99177, #fff, #cb8300);
+}
 `;
